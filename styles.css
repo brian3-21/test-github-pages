@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:ital,wght@0,100;0,500;0,600;1,100&family=Poppins:wght@100;200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 240, 240);
+}
+
+.container{
+    width: 420px;
+    color: #fff ;
+}
+
+.button {
+    display: flex;
+    background-color: rgb(174, 27, 27);
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-icon-left {
+    width: 40px; /* ajustar al tamaño deseado */
+    height: 40px; /* ajustar al tamaño deseado */
+    background-size: cover;
+    vertical-align: middle; 
+    text-align: left;
+}
+
+.text{
+    display: block;
+    position: absolute;
+    right: 50%;
+    width: 80px;
+}
+
+.font-a-ref{
+    font-size: 28px;
+    text-align: center;
+}
+
+.right-arrow{
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    vertical-align: auto;
+    font-size: 30px;
+}
